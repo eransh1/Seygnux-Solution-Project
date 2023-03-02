@@ -57,3 +57,13 @@
     padding-left: 1rem;
     padding-right: 1rem;
 }
+
+@media(max-width:500px){
+    .outerCont{
+        padding: 2rem;
+    }
+    .innerCont{
+        width: 90%;
+        margin: auto;
+    }
+}

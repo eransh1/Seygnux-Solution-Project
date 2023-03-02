@@ -64,6 +64,9 @@
 
 @media(max-width:500px){
     .outerCont,.innerCont{
-        height: 780px;
-      }    
+        height: 700px;
+      }  
+    .innerCont{
+        padding: 2rem;
+    }
 }
