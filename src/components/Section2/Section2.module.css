@@ -1,0 +1,59 @@
+.outerCont{
+    width: 100%;
+    padding: 8rem;
+    font-family: "Poppins";
+}
+.innerCont{
+ 
+    display: flex;
+    flex-direction: column;
+}
+.innerCont h1{
+    font-size: 2.8rem;
+    font-weight: bolder;
+}
+.innerCont p{
+    font-size: 1.2rem;
+}
+.line {
+    color: black;
+    width: 20px;
+    border: 1px solid black;
+    background: black;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+
+}
+
+.infoCont{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5rem;
+}
+
+.infoItem{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+.infoItem h3{
+    font-size: 1.4rem;
+    font-weight: bolder;
+}
+.infoItem p{
+    font-size: 1.2rem;
+    opacity: .8;
+}
+.infoItem button{
+    padding: .5rem;
+    width: fit-content;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}

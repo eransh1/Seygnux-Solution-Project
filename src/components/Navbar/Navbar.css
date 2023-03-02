@@ -1,0 +1,25 @@
+.navbar_main_brand_logo{
+    font-size: 3rem;
+    font-weight: bolder;
+    font-family: "Exo";
+cursor: pointer;
+margin-left: 2rem;
+height: fit-content;
+}
+.navbar_ul_links{
+    display: contents;
+}
+.navbar_first_link_item{
+    margin-left: auto;
+}
+
+.nav-link{
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-right: 1.5rem;
+}
+
+.navbar_search_icon{
+    font-size: 1.5rem;
+    cursor: pointer;
+}

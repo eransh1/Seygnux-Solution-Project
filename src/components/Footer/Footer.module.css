@@ -1,0 +1,28 @@
+.outerCont{
+    padding: 2rem;
+    background-color: black;
+    display: flex;
+}
+.innerCont{
+    width: 500px;
+    height: 200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.innerCont h3{
+    font-family: "Exo";
+    font-size: 2.7rem;
+    color: white;
+    font-weight: bolder;
+}
+.text{
+    font-size: 1rem;
+    color: white;
+    margin-top: .5rem;
+    opacity: .8;
+    text-align: center;
+    cursor: pointer;
+}

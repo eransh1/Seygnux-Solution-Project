@@ -1,0 +1,33 @@
+.outerCont{
+    width: 100%;
+    padding: 2rem;
+    background: linear-gradient(184.23deg, #1E96FC 104.13%, rgba(66, 35, 255, 0.31) 4.8%);
+    display: flex;
+}
+.outerCont h3{
+    text-align: center;
+    color: white;
+    font-size: 1.3rem;
+    margin: auto;
+    margin-top: 1rem;
+}
+.outerCont h3 span{
+    margin-left: 1rem;
+}
+
+.btn{
+    padding: 1rem 1rem;
+    width: fit-content;
+    font-family: "Exo";
+    color: black;
+    border: none;
+    background-color: white;
+    font-size: .8rem;
+    cursor: pointer;
+}
+
+@media(max-width:565px){
+    .btn{
+        margin-top: 2rem;
+    }
+}
